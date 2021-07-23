@@ -22,7 +22,7 @@ Users should be able to:
 - Mobile-first workflow
 
 Used Technologies: HTML/CSS
-<img src="./images/image.jpg" width="300" height="200" />
+<img src="./images/image.jpg" width="280" height="150" />
 ## Author
 
 Akrom Abdulvokhidov
