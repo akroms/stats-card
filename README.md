@@ -6,7 +6,7 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Screenshot
+### GIF
 
 <img src="./images/gif.gif" width="600" height="400" />
 
