@@ -1,0 +1,126 @@
+/* Reset css*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Main Style */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(244, 38%, 16%);
+    color: hsl(0, 0%, 100%);
+}
+
+.card-left {
+    width: 50%;
+    padding: 2em;
+}
+
+.card-title__hightlight {
+    color: hsl(277, 64%, 61%);
+}
+
+.card-right > img {
+    width: 100%;
+    opacity: .555;
+}
+
+.card-right {
+    background-color: hsl(277, 64%, 61%);
+}
+
+.card-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer */
+
+.attribution {
+    text-align: center;
+    color: #112A46;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #ACC8E5;
+    
+}
+
+.attribution > a {
+    text-decoration: none;
+}
+
+.chellenge,
+.name 
+{
+    font-size: 1.5em;
+    color: rgb(78, 173, 49);
+}
+
+.red {
+    color: red;
+}
+
+/* Responsive design */
+@media (min-width:300px) {
+    header {
+        flex-direction:column; 
+    }
+    .card-left {
+        width: 100%;
+    }
+    .card-stats,
+    .card-content {
+        padding-top: 0.8em;
+    }
+    .card-content, 
+    .item-name {
+        color:  hsla(0, 0%, 100%, 0.75);
+    }
+    .item-stats {
+        font-weight: bold;
+    }
+    .attribution {
+        margin-top: 4.7em;
+        font-size: .7em;
+    }
+}
+
+@media (min-width:600px) {
+    header {
+        flex-direction:row;
+        margin: 13.5em auto;
+    }
+    .card-left {
+        padding: 2em 1em;
+    }
+}
+
+@media (min-width:900px) {
+    header {
+        width: 90%;
+    }
+    .attribution {
+        margin-top: 5em;
+        font-size: 1em;
+    }
+}
+
+@media (min-width:1000px) {
+    header {
+        width: 60%;
+    }
+    .card-left {
+        width: 55%;
+    }
+    .attribution {
+        width: 70em;
+        margin: 0 auto;
+        border-radius: 1em;
+    }
+}
