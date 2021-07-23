@@ -21,7 +21,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-Used Technologies: HTML/CSS
+Used Technologies: HTML/CSS <br>
 <img src="./images/image.jpg" width="280" height="150" />
 ## Author
 
