@@ -8,7 +8,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src="./images/gif.gif" width="600" height="400" />
 
 ### Links
 
@@ -20,7 +20,9 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- 
+
+Used Technologies: HTML/CSS
+<img src="./images/image.jpg" width="600" height="400" />
 ## Author
 
 Akrom Abdulvokhidov
